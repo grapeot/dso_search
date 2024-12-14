@@ -10,20 +10,25 @@ import numpy as np
 
 def load_all_catalogs() -> pd.DataFrame:
     """Load and combine all processed catalog data."""
-    data_dir = Path(__file__).parent.parent.parent / "data"
+    data_dir = Path(__file__).parent.parent.parent / "data" / "processed"
     dfs = []
 
     for csv_file in data_dir.glob("processed_*.csv"):
-        df = pd.read_csv(csv_file)
-        catalog_name = csv_file.stem.replace('processed_', '').upper()
-        df['source_catalog'] = catalog_name
-        # Ensure consistent column names
-        df = df.rename(columns={
-            'type': 'object_type',
-            'diam': 'diameter',
-            'mag': 'magnitude'
-        })
-        dfs.append(df)
+        try:
+            df = pd.read_csv(csv_file)
+            catalog_name = csv_file.stem.replace('processed_', '').upper()
+            df['source_catalog'] = catalog_name
+            # Ensure consistent column names
+            df = df.rename(columns={
+                'type': 'object_type',
+                'diam': 'diameter',
+                'mag': 'magnitude'
+            })
+            print(f"Loaded {len(df)} records from {csv_file.name}")
+            dfs.append(df)
+        except Exception as e:
+            print(f"Error loading {csv_file}: {str(e)}")
+            continue
 
     if not dfs:
         raise ValueError(f"No processed catalog files found in {data_dir}")
