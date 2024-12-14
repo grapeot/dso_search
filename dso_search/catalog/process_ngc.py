@@ -87,8 +87,8 @@ def process_ngc_data(input_file):
 
     # Save processed data
     data_dir = Path("/home/ubuntu/dso-search-api/dso-search-api/data")
-    ngc_df.to_csv(data_dir / "processed_ngc.csv", index=False)
-    ic_df.to_csv(data_dir / "processed_ic.csv", index=False)
+    ngc_df.to_csv(data_dir / "processed" / "processed_ngc.csv", index=False)
+    ic_df.to_csv(data_dir / "processed" / "processed_ic.csv", index=False)
 
     print("\nData Processing Summary:")
     print(f"Total NGC objects: {len(ngc_df)}")
@@ -103,7 +103,7 @@ def process_ngc_data(input_file):
 
 if __name__ == "__main__":
     data_dir = Path("/home/ubuntu/dso-search-api/dso-search-api/data")
-    input_file = data_dir / "ngc2000.tsv"
+    input_file = data_dir / "intermediate" / "ngc2000.tsv"
 
     if not input_file.exists():
         print(f"Error: {input_file} not found!")

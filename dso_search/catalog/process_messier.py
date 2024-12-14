@@ -122,8 +122,8 @@ def process_messier_data(input_file, output_file):
 
 if __name__ == "__main__":
     data_dir = Path("/home/ubuntu/dso-search-api/dso-search-api/data")
-    input_file = data_dir / "messier.tsv"
-    output_file = data_dir / "processed_messier.csv"
+    input_file = data_dir / "intermediate" / "messier.tsv"
+    output_file = data_dir / "processed" / "processed_messier.csv"
 
     if not input_file.exists():
         print(f"Error: {input_file} not found!")
