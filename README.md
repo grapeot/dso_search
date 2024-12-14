@@ -79,14 +79,34 @@ uvicorn dso_search.api.main:app --reload
     - `fov_width`: Field of view width in degrees
     - `fov_height`: Field of view height in degrees
 
-## Data Location
+## Data Organization
 
-Processed catalog data is stored in the `data/` directory:
-- `processed_messier.csv`: Messier catalog objects
-- `processed_ngc.csv`: NGC/IC catalog objects
-- Additional specialized catalog files
+The project data is organized into three main directories:
 
-Raw data and intermediate processing files are stored in `data/raw/`.
+### Processed Data (Project Deliverables)
+Located in `data/processed/`, these files are the main deliverables of this project:
+- Standardized CSV files (`processed_*.csv`) containing cleaned and validated astronomical objects
+- All coordinates standardized to J2000 epoch
+- Consistent data format across all catalogs
+- Ready for direct use in applications
+
+### Intermediate Processing Data
+Located in `data/intermediate/`:
+- Temporary processing files
+- Intermediate conversion results
+- Data validation outputs
+- Cross-matching results
+
+### Raw Data
+Located in `data/raw/`:
+- Original downloaded catalog data
+- Unprocessed source files
+- Original format data before standardization
+
+### Additional Data
+- `data/visualizations/`: Data composition analysis plots
+- `data/catalog_status.json`: Processing status and statistics
+- `data/dataset_summary.json`: Dataset composition summary
 
 ## Development
 
