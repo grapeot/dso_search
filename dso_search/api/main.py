@@ -5,6 +5,7 @@ Provides endpoints for searching deep space objects by coordinates.
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
+import numpy as np
 from pathlib import Path
 import logging
 from typing import List, Optional
@@ -63,18 +64,18 @@ async def search_objects(coords: Coordinates):
         List of matching deep space objects
     """
     try:
-        # Calculate angular distances
+        # Calculate angular distances using numpy for better performance
         ra_diff = catalog_data['ra'] - coords.ra
         dec_diff = catalog_data['dec'] - coords.dec
 
-        # Use spherical trigonometry for accurate distances
+        # Use spherical trigonometry for accurate distances (Haversine formula)
         distances = (
-            2 * pd.np.arcsin(pd.np.sqrt(
-                pd.np.sin(pd.np.deg2rad(dec_diff) / 2) ** 2 +
-                pd.np.cos(pd.np.deg2rad(coords.dec)) *
-                pd.np.cos(pd.np.deg2rad(catalog_data['dec'])) *
-                pd.np.sin(pd.np.deg2rad(ra_diff) / 2) ** 2
-            )) * 180 / pd.np.pi
+            2 * np.arcsin(np.sqrt(
+                np.sin(np.deg2rad(dec_diff) / 2) ** 2 +
+                np.cos(np.deg2rad(coords.dec)) *
+                np.cos(np.deg2rad(catalog_data['dec'])) *
+                np.sin(np.deg2rad(ra_diff) / 2) ** 2
+            )) * 180 / np.pi
         )
 
         # Filter objects within search radius

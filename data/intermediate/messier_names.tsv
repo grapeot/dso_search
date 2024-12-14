@@ -1,0 +1,11 @@
+name	catalog	common_name	ngc_name	size	ra	dec
+M1	Messier	Crab Nebula	NGC 1952	10.0	83.633083	22.0145
+M31	Messier	Andromeda Galaxy	NGC 224	10.0	10.684583	41.269167
+M42	Messier	Orion Nebula	NGC 1976	10.0	83.822083	4.608889
+M45	Messier	Pleiades		10.0	56.85	24.116667
+M51	Messier	Whirlpool Galaxy	NGC 5194	10.0	202.469583	47.195278
+M57	Messier	Ring Nebula	NGC 6720	10.0	283.39625	33.029167
+M81	Messier	Bode's Galaxy	NGC 3031	10.0	148.888333	69.065278
+M87	Messier	Virgo A	NGC 4486	10.0	187.705833	12.391111
+M101	Messier	Pinwheel Galaxy	NGC 5457	10.0	210.8025	54.349167
+M104	Messier	Sombrero Galaxy	NGC 4594	10.0	189.9975	10.376944
