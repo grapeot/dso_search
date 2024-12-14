@@ -1,12 +1,113 @@
-# Messier Catalog Data (J2000 Coordinates)
-# Format: Name,CommonName,NGCName,RA(HH:MM:SS),Dec(DD:MM:SS)
-M1,Crab Nebula,NGC 1952,05:34:31.94,+22:00:52.2
-M31,Andromeda Galaxy,NGC 224,00:42:44.3,+41:16:09
-M42,Orion Nebula,NGC 1976,05:35:17.3,-05:23:28
-M45,Pleiades,,03:47:24,+24:07:00
-M51,Whirlpool Galaxy,NGC 5194,13:29:52.7,+47:11:43
-M57,Ring Nebula,NGC 6720,18:53:35.1,+33:01:45
-M81,Bode's Galaxy,NGC 3031,09:55:33.2,+69:03:55
-M87,Virgo A,NGC 4486,12:30:49.4,+12:23:28
-M101,Pinwheel Galaxy,NGC 5457,14:03:12.6,+54:20:57
-M104,Sombrero Galaxy,NGC 4594,12:39:59.4,-11:37:23
+BatchStart
+|name |alt_name  |ra        |dec      |constell|dimension|vmag|vmag_uncert|class                                              |
++-----+----------+----------+---------+--------+---------+----+-----------+---------------------------------------------------+
+|M 7  |NGC 6475  |17 53 54.0|-34 49 00|SCO     |80       | 3.3|           |                                  OPEN STAR CLUSTER|
+|M 69 |NGC 6637  |18 31 24.0|-32 21 00|SGR     |7        | 7.7|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 70 |NGC 6681  |18 43 12.0|-32 18 00|SGR     |8        | 8.1|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 6  |NGC 6405  |17 40 06.0|-32 13 00|SCO     |15       | 4.2|           |                                  OPEN STAR CLUSTER|
+|M 55 |NGC 6809  |19 40 00.0|-30 58 00|SGR     |19       | 7.0|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 54 |NGC 6715  |18 55 06.0|-30 29 00|SGR     |9        | 7.7|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 62 |NGC 6266  |17 01 12.0|-30 07 00|OPH     |14       | 6.6|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 83 |NGC 5236  |13 37 00.0|-29 52 00|HYA     |11X10    | 7.6|:          |                                      SPIRAL GALAXY|
+|M 68 |NGC 4590  |12 39 30.0|-26 45 00|HYA     |12       | 8.2|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 4  |NGC 6121  |16 23 36.0|-26 32 00|SCO     |26       | 5.9|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 19 |NGC 6273  |17 02 36.0|-26 16 00|OPH     |14       | 7.2|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 28 |NGC 6626  |18 24 30.0|-24 52 00|SGR     |11       | 6.9|:          |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 79 |NGC 1904  |05 24 30.0|-24 33 00|LEP     |9        | 8.0|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 8  |NGC 6523  |18 03 48.0|-24 23 00|SGR     |90X40    | 5.8|:          |                                             NEBULA|
+|M 22 |NGC 6656  |18 36 24.0|-23 54 00|SGR     |24       | 5.1|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 93 |NGC 2447  |07 44 36.0|-23 52 00|PUP     |22       | 6.2|:          |                                  OPEN STAR CLUSTER|
+|M 30 |NGC 7099  |21 40 24.0|-23 11 00|CAP     |11       | 7.5|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 20 |NGC 6514  |18 02 36.0|-23 02 00|SGR     |29X27    | 8.5|:          |                                             NEBULA|
+|M 80 |NGC 6093  |16 17 00.0|-22 59 00|SCO     |9        | 7.2|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 21 |NGC 6531  |18 04 36.0|-22 30 00|SGR     |13       | 5.9|           |                                  OPEN STAR CLUSTER|
+|M 75 |NGC 6864  |20 06 06.0|-21 55 00|SGR     |6        | 8.6|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 41 |NGC 2287  |06 47 00.0|-20 44 00|CMA     |38       | 4.5|           |                                  OPEN STAR CLUSTER|
+|M 25 |IC4725    |18 31 36.0|-19 15 00|SGR     |32       | 4.6|           |                                  OPEN STAR CLUSTER|
+|M 23 |NGC 6494  |17 56 48.0|-19 01 00|SGR     |27       | 5.5|           |                                  OPEN STAR CLUSTER|
+|M 9  |NGC 6333  |17 19 12.0|-18 31 00|OPH     |9        | 7.9|:          |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 24 |          |18 16 54.0|-18 29 00|SGR     |90       | 4.5|:          |                                       UNIDENTIFIED|
+|M 18 |NGC 6613  |18 19 54.0|-17 08 00|SGR     |9        | 6.9|           |                                  OPEN STAR CLUSTER|
+|M 17 |NGC 6618  |18 20 48.0|-16 11 00|SGR     |46X37    | 7.0|*          |                                             NEBULA|
+|M 46 |NGC 2437  |07 41 48.0|-14 49 00|PUP     |27       | 6.1|           |                                  OPEN STAR CLUSTER|
+|M 47 |NGC 2422  |07 36 36.0|-14 30 00|PUP     |30       | 4.4|           |                                  OPEN STAR CLUSTER|
+|M 16 |NGC 6611  |18 18 48.0|-13 47 00|SER     |7        | 6.0|           |                                  OPEN STAR CLUSTER|
+|M 107|NGC 6171  |16 32 30.0|-13 03 00|OPH     |10       | 8.1|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 73 |NGC 6994  |20 58 54.0|-12 38 00|AQR     |         |    |           |                                       UNIDENTIFIED|
+|M 72 |NGC 6981  |20 53 30.0|-12 32 00|AQR     |6        | 9.4|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 104|NGC 4594  |12 40 00.0|-11 37 00|VIR     |9X4      | 8.3|           |                                      SPIRAL GALAXY|
+|M 26 |NGC 6694  |18 45 12.0|-09 24 00|SCT     |15       | 8.0|           |                                  OPEN STAR CLUSTER|
+|M 50 |NGC 2323  |07 03 12.0|-08 20 00|MON     |16       | 5.9|           |                                  OPEN STAR CLUSTER|
+|M 11 |NGC 6705  |18 51 06.0|-06 16 00|SCT     |14       | 5.8|           |                                  OPEN STAR CLUSTER|
+|M 48 |NGC 2548  |08 13 48.0|-05 48 00|HYA     |54       | 5.8|           |                                  OPEN STAR CLUSTER|
+|M 42 |NGC 1976  |05 35 24.0|-05 27 00|ORI     |66X60    | 4.0|*          |                                             NEBULA|
+|M 43 |NGC 1982  |05 35 36.0|-05 16 00|ORI     |20X15    | 9.0|*          |                                             NEBULA|
+|M 10 |NGC 6254  |16 57 06.0|-04 06 00|OPH     |15       | 6.6|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 14 |NGC 6402  |17 37 36.0|-03 15 00|OPH     |12       | 7.6|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 12 |NGC 6218  |16 47 12.0|-01 57 00|OPH     |14       | 6.6|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 2  |NGC 7089  |21 33 30.0|-00 49 00|AQR     |13       | 6.5|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 77 |NGC 1068  |02 42 42.0|-00 01 00|CET     |7X6      | 8.8|           |                                      SPIRAL GALAXY|
+|M 78 |NGC 2068  |05 46 42.0|+00 03 00|ORI     |8X6      | 8.0|*          |                                             NEBULA|
+|M 5  |NGC 5904  |15 18 36.0|+02 05 00|SER     |17       | 5.8|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 61 |NGC 4303  |12 21 54.0|+04 28 00|VIR     |6X5      | 9.7|           |                                      SPIRAL GALAXY|
+|M 49 |NGC 4472  |12 29 48.0|+08 00 00|VIR     |9X7      | 8.4|           |                                  ELLIPTICAL GALAXY|
+|M 60 |NGC 4649  |12 43 42.0|+11 33 00|VIR     |7X6      | 8.8|           |                                  ELLIPTICAL GALAXY|
+|M 59 |NGC 4621  |12 42 00.0|+11 39 00|VIR     |5X3      | 9.8|           |                                  ELLIPTICAL GALAXY|
+|M 95 |NGC 3351  |10 44 00.0|+11 42 00|LEO     |7X5      | 9.7|           |                                      SPIRAL GALAXY|
+|M 67 |NGC 2682  |08 50 24.0|+11 49 00|CNC     |30       | 6.9|           |                                  OPEN STAR CLUSTER|
+|M 96 |NGC 3368  |10 46 48.0|+11 49 00|LEO     |7X5      | 9.2|           |                                      SPIRAL GALAXY|
+|M 58 |NGC 4579  |12 37 42.0|+11 49 00|VIR     |5X4      | 9.8|           |                                      SPIRAL GALAXY|
+|M 15 |NGC 7078  |21 30 00.0|+12 10 00|PEG     |12       | 6.4|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 87 |NGC 4486  |12 30 48.0|+12 24 00|VIR     |7        | 8.6|           |                                  ELLIPTICAL GALAXY|
+|M 89 |NGC 4552  |12 35 42.0|+12 33 00|VIR     |4        | 9.8|           |                                  ELLIPTICAL GALAXY|
+|M 105|NGC 3379  |10 47 48.0|+12 35 00|LEO     |4X4      | 9.3|           |                                  ELLIPTICAL GALAXY|
+|M 84 |NGC 4374  |12 25 06.0|+12 53 00|VIR     |5X4      | 9.3|           |                                  ELLIPTICAL GALAXY|
+|M 86 |NGC 4406  |12 26 12.0|+12 57 00|VIR     |7X6      | 9.2|           |                                  ELLIPTICAL GALAXY|
+|M 66 |NGC 3627  |11 20 12.0|+12 59 00|LEO     |9X4      | 9.0|           |                                      SPIRAL GALAXY|
+|M 65 |NGC 3623  |11 18 54.0|+13 05 00|LEO     |10X3     | 9.3|           |                                      SPIRAL GALAXY|
+|M 90 |NGC 4569  |12 36 48.0|+13 10 00|VIR     |10X5     | 9.5|           |                                      SPIRAL GALAXY|
+|M 88 |NGC 4501  |12 32 00.0|+14 25 00|COM     |7X4      | 9.5|           |                                      SPIRAL GALAXY|
+|M 99 |NGC 4254  |12 18 48.0|+14 25 00|COM     |5        | 9.8|           |                                      SPIRAL GALAXY|
+|M 91 |NGC 4548  |12 35 24.0|+14 30 00|COM     |5X4      |10.2|           |                                      SPIRAL GALAXY|
+|M 98 |NGC 4192  |12 13 48.0|+14 54 00|COM     |10X3     |10.1|           |                                      SPIRAL GALAXY|
+|M 74 |NGC 628   |01 36 42.0|+15 47 00|PSC     |10X9     | 9.2|           |                                      SPIRAL GALAXY|
+|M 100|NGC 4321  |12 22 54.0|+15 49 00|COM     |7X6      | 9.4|           |                                      SPIRAL GALAXY|
+|M 53 |NGC 5024  |13 12 54.0|+18 10 00|COM     |13       | 7.7|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 85 |NGC 4382  |12 25 24.0|+18 11 00|COM     |7X5      | 9.2|           |                                  ELLIPTICAL GALAXY|
+|M 71 |NGC 6838  |19 53 48.0|+18 47 00|SGE     |7        | 8.3|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 44 |NGC 2632  |08 40 06.0|+19 59 00|CNC     |95       | 3.1|           |                                  OPEN STAR CLUSTER|
+|M 64 |NGC 4826  |12 56 42.0|+21 41 00|COM     |9X5      | 8.5|           |                                      SPIRAL GALAXY|
+|M 1  |NGC 1952  |05 34 30.0|+22 01 00|TAU     |6X4      | 8.4|:          |                                             NEBULA|
+|M 27 |NGC 6853  |19 59 36.0|+22 43 00|VUL     |8X4      | 8.1|:          |                                   PLANETARY NEBULA|
+|M 45 |          |03 47 00.0|+24 07 00|TAU     |110      | 1.2|           |                                  OPEN STAR CLUSTER|
+|M 35 |NGC 2168  |06 08 54.0|+24 20 00|GEM     |28       | 5.1|           |                                  OPEN STAR CLUSTER|
+|M 3  |NGC 5272  |13 42 12.0|+28 23 00|CVN     |16       | 6.4|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 56 |NGC 6779  |19 16 36.0|+30 11 00|LYR     |7        | 8.2|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 33 |NGC 598   |01 33 54.0|+30 39 00|TRI     |62X39    | 5.7|           |                                      SPIRAL GALAXY|
+|M 37 |NGC 2099  |05 52 24.0|+32 33 00|AUR     |24       | 5.6|           |                                  OPEN STAR CLUSTER|
+|M 57 |NGC 6720  |18 53 36.0|+33 02 00|LYR     |1        | 9.0|:          |                                   PLANETARY NEBULA|
+|M 36 |NGC 1960  |05 36 06.0|+34 08 00|AUR     |12       | 6.0|           |                                  OPEN STAR CLUSTER|
+|M 38 |NGC 1912  |05 28 42.0|+35 50 00|AUR     |21       | 6.4|           |                                  OPEN STAR CLUSTER|
+|M 13 |NGC 6205  |16 41 42.0|+36 28 00|HER     |17       | 5.9|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 29 |NGC 6913  |20 23 54.0|+38 32 00|CYG     |7        | 6.6|           |                                  OPEN STAR CLUSTER|
+|M 32 |NGC 221   |00 42 42.0|+40 52 00|AND     |8X6      | 8.2|           |                                  ELLIPTICAL GALAXY|
+|M 94 |NGC 4736  |12 50 54.0|+41 07 00|CVN     |11X9     | 8.1|           |                                      SPIRAL GALAXY|
+|M 31 |NGC 224   |00 42 42.0|+41 16 00|AND     |178X63   | 3.4|           |                                      SPIRAL GALAXY|
+|M 110|NGC 205   |00 40 24.0|+41 41 00|AND     |17X10    | 8.0|           |                                  ELLIPTICAL GALAXY|
+|M 63 |NGC 5055  |13 15 48.0|+42 02 00|CVN     |12X8     | 8.6|           |                                      SPIRAL GALAXY|
+|M 34 |NGC 1039  |02 42 00.0|+42 47 00|PER     |35       | 5.2|           |                                  OPEN STAR CLUSTER|
+|M 92 |NGC 6341  |17 17 06.0|+43 08 00|HER     |11       | 6.5|           |GLOBULAR CLUSTER EXTENDED GALACTIC OR EXTRAGALACTIC|
+|M 51 |NGC 5194-5|13 29 54.0|+47 12 00|CVN     |11X8     | 8.1|           |                                      SPIRAL GALAXY|
+|M 106|NGC 4258  |12 19 00.0|+47 18 00|CVN     |18X8     | 8.3|           |                                      SPIRAL GALAXY|
+|M 39 |NGC 7092  |21 32 12.0|+48 26 00|CYG     |32       | 4.6|           |                                  OPEN STAR CLUSTER|
+|M 76 |NGC 650-1 |01 42 24.0|+51 34 00|PER     |2X1      |11.5|:          |                                   PLANETARY NEBULA|
+|M 109|NGC 3992  |11 57 36.0|+53 23 00|UMA     |8X5      | 9.8|           |                                      SPIRAL GALAXY|
+|M 101|NGC 5457  |14 03 12.0|+54 21 00|UMA     |27X26    | 7.7|           |                                      SPIRAL GALAXY|
+|M 97 |NGC 3587  |11 14 48.0|+55 01 00|UMA     |3        |11.2|:          |                                   PLANETARY NEBULA|
+|M 108|NGC 3556  |11 11 30.0|+55 40 00|UMA     |8X2      |10.0|           |                                      SPIRAL GALAXY|
+|M 40 |          |12 22 24.0|+58 05 00|UMA     |         | 8.0|*          |                                       UNIDENTIFIED|
+|M 103|NGC 581   |01 33 12.0|+60 42 00|CAS     |6        | 7.4|:          |                                  OPEN STAR CLUSTER|
+|M 52 |NGC 7654  |23 24 12.0|+61 35 00|CAS     |13       | 6.9|           |                                  OPEN STAR CLUSTER|
+|M 81 |NGC 3031  |09 55 35.9|+69 04 00|UMA     |26X14    | 6.8|           |                                      SPIRAL GALAXY|
+|M 82 |NGC 3034  |09 55 47.9|+69 41 00|UMA     |11X5     | 8.4|           |                                   IRREGULAR GALAXY|
+BatchEnd
