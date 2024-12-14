@@ -1,0 +1,78 @@
+{
+    "catalogs": {
+        "NGC": {
+            "status": "processed",
+            "count": 7840,
+            "file": "processed_ngc.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "IC": {
+            "status": "processed",
+            "count": 5386,
+            "file": "processed_ic.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "Abell": {
+            "status": "processed",
+            "count": 4077,
+            "file": "processed_abell.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "Messier": {
+            "status": "processed",
+            "count": 109,
+            "file": "processed_messier.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "Barnard": {
+            "status": "processed",
+            "count": 292,
+            "file": "processed_barnard.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "Sharpless": {
+            "status": "processed",
+            "count": 313,
+            "file": "processed_sharpless.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "LDN": {
+            "status": "processed",
+            "count": 1787,
+            "file": "processed_ldn.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "LBN": {
+            "status": "processed",
+            "count": 1125,
+            "file": "processed_lbn.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "Caldwell": {
+            "status": "processed",
+            "count": 106,
+            "file": "processed_caldwell.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        },
+        "VdB": {
+            "status": "processed",
+            "count": 158,
+            "file": "processed_vdb.csv",
+            "coordinate_system": "J2000",
+            "last_updated": "2024-12-14"
+        }
+    },
+    "total_objects": 21193,
+    "last_updated": "2024-12-14",
+    "coordinate_system": "J2000",
+    "status": "all_processed"
+}

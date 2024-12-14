@@ -1,0 +1,29 @@
+{
+  "total_objects": 21192,
+  "objects_by_catalog": {
+    "NGC": 7840,
+    "IC": 5386,
+    "Abell": 4076,
+    "LDN": 1787,
+    "LBN": 1125,
+    "Sharpless": 313,
+    "Barnard": 292,
+    "VdB": 158,
+    "Messier": 109,
+    "Caldwell": 106
+  },
+  "ra_range": [
+    0.0,
+    359.95
+  ],
+  "dec_range": [
+    -89.33333333333333,
+    89.11666666666666
+  ],
+  "diameter_stats": {
+    "min": 0.1,
+    "max": 1560.0,
+    "mean": 18.918932631553517,
+    "median": 3.3
+  }
+}

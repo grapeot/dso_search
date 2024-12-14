@@ -1,0 +1,35 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2024-12-14T04:04:59 [V7.4.2]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2024-12-14T04:05:00	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/566/A47&-out.max=unlimited&-out.form=TSV&-out.meta=true&-out=Messier+Diam&-oc.form=1	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=7.4.2	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_35660047
+#Name: J/A+A/566/A47
+#Title: Milky Way nuclear star cluster extinction map (Schoedel+, 2014)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/566/a47	    IVOID of underlying data collection
+#INFO	creator=Schoedel R.	    First author or institution
+#INFO	cites=bibcode:2014A&A...566A..47S	    Article or Data origin sources
+#INFO	editor=Astronomy and Astrophysics	    Editor name (article)
+#INFO	original_date=2014	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/566/A47	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.35660047	    Dataset identifier that can be used for citation
+#INFO	publication_date=2018-01-04	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	G:	galactic
+#Table	J_A_A_566_A47_list:
+#Name: J/A+A/566/A47/list
+#Title: List of FITS maps
+
+
+
+
+
