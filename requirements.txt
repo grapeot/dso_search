@@ -1,7 +1,3 @@
-fastapi==0.109.2
-uvicorn==0.27.1
-sqlalchemy==2.0.27
-psycopg2-binary==2.9.9
-pandas==2.2.0
-numpy==1.26.4
-python-multipart==0.0.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:4eb68123f937fecdd53b26a19820d18d719af1fa3a85921cbe0f94e9f02cf6fb
+size 865
