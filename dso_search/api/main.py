@@ -13,21 +13,22 @@ app = FastAPI(
 )
 
 def load_dso_data() -> pd.DataFrame:
-    data_dir = Path(__file__).parent.parent / "data"
+    data_dir = Path(__file__).parent.parent.parent / "data" / "processed"
     if not data_dir.exists():
-        raise FileNotFoundError(f"Data directory not found: {data_dir}")
+        raise FileNotFoundError(f"Processed data directory not found: {data_dir}")
 
     dso_data = []
     for csv_file in data_dir.glob("processed_*.csv"):
         try:
             df = pd.read_csv(csv_file)
+            print(f"Loaded {len(df)} records from {csv_file.name}")
             dso_data.append(df)
         except Exception as e:
             print(f"Error loading {csv_file}: {str(e)}")
             continue
 
     if not dso_data:
-        return pd.DataFrame()
+        raise FileNotFoundError("No processed catalog files found")
     return pd.concat(dso_data, ignore_index=True)
 
 try:
@@ -67,9 +68,9 @@ async def healthz() -> Dict[str, str]:
 
 @app.get("/search")
 async def search_dsos(
-    center_ra: float = Query(..., description="Center Right Ascension in degrees", ge=0, lt=360),
+    center_ra: float = Query(..., description="Center Right Ascension in degrees", ge=0, le=360),
     center_dec: float = Query(..., description="Center Declination in degrees", ge=-90, le=90),
-    fov_width: float = Query(..., description="Field of View width in degrees", gt=0, le=180),
+    fov_width: float = Query(..., description="Field of View width in degrees", gt=0, le=360),
     fov_height: float = Query(..., description="Field of View height in degrees", gt=0, le=180)
 ) -> Dict[str, Any]:
     if DSO_DATA.empty:
